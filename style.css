@@ -1,19 +1,19 @@
 #wrap {margin: 0px; padding: 10px; max-width: 1000px; min-width: 500px; margin: auto;}
 
-	#header {background: rgb(157, 255, 0);
+	#header {background: rgba(117, 52, 147, 0);
     width: 100p%;height: 40px 
   }
 
-	#sidebar{ width: 200px; float: right; height: 900px ;background: red;}
+	#sidebar{ width: 200px; float: right; height: 900px ;background: rgb(135, 89, 89);}
 	#content  {margin-right: 215px; left auto; min-height:900px; background:#ddd;}
 
-	#footer {clear:both; background: rgb(255, 0, 85);
+	#footer {clear:both; background: rgb(119, 154, 181);
     width: 100%;height: 40px}
 	.navbar{
 
 		height: 80px;
 		width: 100%;
 	  
-		background-color: gold;
+		background-color: rgb(143, 135, 90);
 	}
 	
