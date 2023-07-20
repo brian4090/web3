@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    </head>
-    
-<body style="background-color: blueviolet;">
-    <h1>FOR ASSISTANCE CONTACT</h1>
-    <br>
-    <ul>
-        <li><a href="https://twitter.com/Kunta19599270?t=viTx3Q95WXPZRoWbPsmCcg&s=09">TWITTER</a></li>
-        <li><a href="https://www.facebook.com/brian.kunta.50">FACEBOOK</a></li>
-        <li><a href="https://wa.me/254790343183"></a></li>
-     
-
-             </ul>
-  
- 
- 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+      </div>
+      <button type="submit" id="submitButton">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
