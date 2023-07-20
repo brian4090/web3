@@ -7,8 +7,8 @@
 	#sidebar{ width: 200px; float: right; height: 900px ;background: rgb(135, 89, 89);}
 	#content  {margin-right: 215px; ; min-height:900px; background:#ddd;}
 
-	#footer {clear:both; background: rgb(119, 154, 181);
-    width: 100%;height: 40px;color: blueviolet;}
+	#footer {clear:both; background: rgb(136, 183, 219);
+    width: 100%;height: 40px;color: rgb(126, 56, 192);}
 	.navbar{
 
 		height: 80px;
